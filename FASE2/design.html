@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Flex Box, CSS Grid</title>
+<meta charset="UTF-8">
+<header><h1>Flex Box, CSS Grid</h1></header>
+<body>
+<nav>
+    <li><a href="design.html">Inicio</a></li>
+    <li><a href="">Temas</a>
+         <ul>
+             <li><a href="">Tema 1</a></li>
+            <li><a href="">Tema 2</a></li>    
+         </ul>
+    </li>
+    <li><a href="">Recursos Digitales</a>
+        <ul>
+            <li><a href="">Recurso 1</a></li>
+            <li><a href="">Recurso 2</a></li>    
+        </ul>
+    </li>
+    <li><a href="">Aprendizaje</a>
+        <ul>
+            <li><a href="">Actividad 1</a></li>
+            <li><a href="">Actividad 2</a></li>    
+        </ul>
+    </li>
+    <li><a href="">Autor</a></li>
+    
+</nav>
+
+<section><h2>Flex Box, CSS Grid</h2>
+<p>El proposito de esta página es dar a conocer los conceptos de los temas mencionados en el titulo, dejando claridad en su uso.</p>
+</section>
+
+<article>
+<h3>Flexbox</h3>
+<p>El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación. Este artículo hace un repaso de las principales características de flexbox, las que exploraremos con mayor detalle en el resto de estas guías.</p>
+<p>Cuando describimos a flexbox como unidimensional destacamos el hecho que flexbox maneja el layout en una sola dimensión a la vez — ya sea como fila o como columna. Esto contrasta con el modelo bidimensional del Grid Layout de CSS, el cual controla columnas y filas a la vez.</p>
+
+<h4>Los dos ejes de Flexbox</h4>
+<p>Cuando trabajamos con flexbox necesitamos pensar en términos de dos ejes — el eje principal y el eje cruzado. El eje principal está definido por la propiedad flex-direction, y el eje cruzado es perpendicular a este. Todo lo que hacemos con flexbox está referido a estos dos ejes, por lo que vale la pena entender cómo trabajan desde el principio.</p>
+
+<h4>El eje principal</h4>
+<p>El eje principal está definido por flex-direction, que posee cuatro posibles valores:</p>
+<li>row</li> 
+<li>row-reverse</li> 
+<li>column</li> 
+<li>column-reverse</li> 
+    
+<p> Si elegimos row o row-reverse, el eje principal correrá a lo largo de la fila según la dirección de la línea .</p>
+<img src="img/1.png">
+<p>Al elegir column o column-reverse el eje principal correrá desde el borde superior de la página hasta el final — según la dirección del bloque.</p>
+<img src="img/2.png">
+<h4>El eje cruzado</h4>
+<p>El eje cruzado va perpendicular al eje principal, y por lo tanto si flex-direction (del eje principal) es row o row-reverse el eje cruzado irá por las columnas.</p>
+<img src="img/3.png">
+<p>Si el eje principal es column o column-reverse entonces el eje cruzado corre a lo largo de las filas.</p>
+<img src="img/4.png">
+<p>Entender cuál eje es cuál es importante cuando empezamos a mirar la alineación y justificación flexible de los ítems; flexbox posee propiedades que permiten alinear y justificar el contenido sobre un eje o el otro.</p>
+<p><b>Fuente:</b>MDN Web Docs (25/03/2020). Conceptos Básicos de flexbox. MDN Web Docs. Recuperado de <a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a></p>
+
+<h3>CSS Grid Layout</h3>
+<p>CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML.</p>
+<p>Al igual que las tablas, el grid layout permite a un autor alinear elementos en columnas y filas. Sin embargo, con CSS grid son posibles muchos más diseños y de forma más sencilla que con las tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse para que se solapen y se superpongan, de forma similar a los elementos posicionados en CSS.</p>
+
+<h4>Ejemplo Sencillo</h4>
+<p>El siguiente ejemplo muestra un grid de tres columnas con filas nuevas creadas con un mínimo de 100 píxeles y un máximo automático. Los elementos se han colocado en el grid utilizando posicionamiento en línea.</p>
+<img src="img/5.png">
+<img src="img/6.png">
+<img src="img/7.png">
+<p><b>Fuente:</b>MDN Web Docs (21/08/2020). CSS Grid Layout. MDN Web Docs. Recuperado de <a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout">https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout</a></p>
+
+<h3>Mockup</h3>
+<p><b>Puede verlo en el siguiente <a href="https://wireframepro.mockflow.com/view/M3ac6a53c9af958e3069a215ae17c99ea1614727410683#/page/26a45888672642b79b248e654b0f8855">enlace</a></b></p>
+<img src="img/8.png">
+</article>
+
+<footer>
+    <p><b>Correo:</b><a href="mailto:favianvargas95@hotmail.com">favianvargas95@hotmail.com</a></p>
+    <p><b>Skype:</b><a href="mailto:favianvargas95@hotmail.com">favianvargas95@hotmail.com</a></p>
+    <p><b>Fecha de Actualización:</b>02/03/2021</p>
+</footer>
+
+
+</body>
+</head>
+</html>
