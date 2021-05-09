@@ -1,0 +1,114 @@
+header{
+    background-color: black;
+    color:neydewho;
+    text-align: center;
+    font-family: initial;
+   
+}
+
+body{
+    background-color: black;
+    color:neydewho;
+    text-align: center;
+    font-family: initial;
+   
+}
+
+a:-webkit-any-link {
+    color: rgba(5, 216, 100, 0.89);
+    cursor: pointer;
+    text-decoration: underline;
+
+}    
+
+/*ENCABEZADO*/
+nav{
+    background-color: rgba(6, 85, 85, 0.938);
+    text-align: left;    
+}
+
+.contenido{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background: black;
+    color: blanchedalmond;
+    text-align: left;
+}
+
+.autor{
+    display:grid;
+    grid-template-columns: repeat(2, 1500px);
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+.encabezado ul{
+    list-style: none;
+    
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu >li>a{
+    display: block;
+    padding: 15px 20px;
+    font-family: 'Arial';
+    color:rgb(235, 236, 240);
+    text-decoration: none;
+}
+
+/*PIE DE PAGINA*/
+
+footer{    
+    background-color: rgba(6, 85, 85, 0.938);
+    padding: 10px; 
+    color: blanchedalmond;
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenido::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*SUBMENUS*/
+
+.subtemas{
+    position: absolute;
+    background-color: rgba(6, 85, 85, 0.938);
+    visibility: hidden;    
+    opacity:0;
+    transition: opacity 1.5s;
+     
+}
+
+.subtemas li a{
+    display: block;    
+    padding: 15px;
+    color:honeydew;
+    font-family: 'arial';
+    text-decoration: none;
+}
+
+.menu li:hover .subtemas{
+    visibility: visible;
+    opacity:1;
+}
+
+/*CONTENIDO*/
+section{
+    grid-column: 1/2;
+    float:left;
+    max-width: 70%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+aside{
+    grid-column: 2/2;
+    float: right;
+    max-width: 30%;
+    color:honeydew
+}
+

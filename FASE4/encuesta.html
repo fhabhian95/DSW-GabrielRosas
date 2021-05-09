@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Temas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tema1.html">Flebox</a>
+              <a class="dropdown-item" href="tema2.html">CSS Grid</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aprendizaje
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="encuesta.html">Encuesta</a>
+              <a class="dropdown-item" href="opinion.html">Opinion</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recursos digitales
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="recurso1.html">Flebox</a>
+              <a class="dropdown-item" href="recurso2.html">CSS Grid</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="autor.html">Acerca del Autor</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <form class="mx-auto" style="width: 400px;">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Direccion de Email:</label>
+        <input type="email" class="form-control" id="emailId" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Califique el diseño de la web:</label>
+        <select class="form-control" id="FormControlSelect">
+          <option>Excelente</option>
+          <option>Bueno</option>
+          <option>Regular</option>
+          <option>Malo</option>
+          <option>Pesimo</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">¿Que color le gustaria la web?</label>
+        <select class="form-control" id="FormControlSelect2">
+          <option>Claro</option>
+          <option>Oscuro</option>
+          <option>Intermedio</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Observaciones:</label>
+        <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+      </div>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Enviar</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
